@@ -1,5 +1,5 @@
 import java.io.*;
-import java.util.Random;
+// import java.util.Random;
 
 public class Cipher {
     /* Generar numero de desplazamiento aleatorio:
@@ -53,12 +53,4 @@ public class Cipher {
         return textCiphered;
     }
 
-    public void getCipheredFile(String textCiphered) {
-        String cipheredText;
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter("Ciphered-text.txt"))) {
-            bw.write(textCiphered);
-        } catch (IOException e) {
-            e.getStackTrace();
-        }
-    }
 }
