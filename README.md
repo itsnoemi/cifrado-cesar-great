@@ -1,7 +1,6 @@
 # CIFRADO CESAR
 
-### Instrucciones:
-El programa debe tener 2 modos:
+MODOS:
 
 Cifrado/descifrado: 
 * El programa debe cifrar y descifrar el texto utilizando una clave criptográfica dada.
